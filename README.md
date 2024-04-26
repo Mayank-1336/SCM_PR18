@@ -1,10 +1,10 @@
-# SCM_PR18
-IMAGE GALLERY WITH FILTERS
-TEAM MEMBERS ARE :
- MANPREET (2310992144)- DEVELOPER AND TESTER
- MANYA (2310992146) - MANAGER
- MAAYANK (2310992149) - DEVELOPER
-we are Creating an image gallery project of CHITKARA UNIVERSITY, using HTML, CSS, and JavaScript can be a fun and educational endeavor. Here's a breakdown of some features you might want to include:
+# SCM_PR18  
+IMAGE GALLERY WITH FILTERS  
+TEAM MEMBERS ARE :  
+ MANPREET (2310992144)- DEVELOPER AND TESTER  
+ MANYA (2310992146) - MANAGER  
+ MAAYANK (2310992149) - DEVELOPER  
+we are Creating an image gallery project of CHITKARA UNIVERSITY, using HTML, CSS, and JavaScript can be a fun and educational endeavor.  
 
 1. **Basic Structure:**
    - Set up the basic HTML structure with a container for the gallery and individual containers for each image.
