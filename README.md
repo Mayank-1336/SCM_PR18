@@ -45,7 +45,6 @@ we are Creating an image gallery project of CHITKARA UNIVERSITY, using HTML, CSS
 11. **Search Functionality:**
     - Add a search bar to enable users to search for specific images by keywords or tags.
 
-12. **Accessibility:**
-    - Ensure the gallery is accessible to users with disabilities by following best practices for HTML semantics, keyboard navigation, and screen reader compatibility.
+
 
 
