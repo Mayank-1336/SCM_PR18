@@ -1,68 +1,79 @@
-<link rel="stylesheet" href="all.css">
-<style>
-.img1
-{
-    border: 5px solid white;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="all.css">
+  <style>
+    .img1 {
+      margin: 10px; /* Adding space between images */
+      width: 200px; /* Equal width for all images */
+      height: 150px; /* Equal height for all images */
+      object-fit: cover; /* Ensure images cover their containers */
+      border: 5px solid white;
+    }
 
-}
-.button-group
-{
-    background-color: black;
-  text-align: center;
+    .button-group {
+      background-color: black;
+      text-align: center;
+    }
 
-}
-.start
-{
-    color: aliceblue;
-    position: absolute;
-    top: 20px;
-}
-.button:hover
-{
-    background-color: lightblue;
-}
-</style>
+    .start {
+      color: aliceblue;
+      position: absolute;
+      top: 20px;
+    }
+
+    .button:hover {
+      background-color: lightblue;
+    }
+  </style>
+</head>
 <body bgcolor="black">
-    <div class="divv"><img class="img2" src="logo.png" width="100px" height="95px"></div>
-    <div class="name"> <h1 class="start">CHITKARA UNIVERSITY</h1></div>
-    <div class="button-group">
-        <button class="button" data-type="*" style="padding: 8px; " ><a href="ALL.html">ALL</a> </button>
-        <button class="button" data-type="*" style="padding: 8px;"><a href="turing.html">TURING BLOCK</a></button>
-        <button class="button" data-type="*" style="padding: 8px;"> <a href="picasso.html">PICASSO BLOCK </a></button>
-        <button class="button" data-type="*"  style="padding: 8px;"><a href="babbage.html">BABBAGE BLOCK </a></button>
-        <button class="button" data-type="*"  style="padding: 8px;"><a href="tesla.html">TESLA BLOCK</a></button>
-        </div>
-    <div style="padding: 10px; padding-top: 20px; display: flex; flex-wrap: wrap;">
-        <img class="img1" src="outer2.jpg" width="500vw" height="250vh" >
-        <img class="img1" src="ou.jpg" width="175vw" height="250vh" >
-        <img class="img1" src="outer.jpg" width="260vw" height="130vh">
-        <img class="img1" src="outer3.jpg" width="200vw" height="130vh">
-        <img class="img1" src="WhatsApp Image 2023-09-26 at 21.25.00.jpg" width="200vw" height="130vh">
-        <img class="img1" src="campus.jpg" width="250vw" height="190vh">
-        <img class="img1" src="design.jpg" width="220vw" height="180vh">
-        <img class="img1" src="tg2.jpg" width="185vw" height="160vh">
-        <img class="img1" src="bab6.jpg" width="240vw" height="170vh">
-        <img class="img1" src="bab8.jpg" width="240vw" height="170vh">
-        <img class="img1" src="class1.jpg" width="180vw" height="200vh">
-        <img class="img1" src="ds.jpg" width="200vw" height="200vh">
-        <img class="img1" src="chitkara.jpg" width="300vw" height="210vh">
-        <img class="img1" src="babbage.jpg" width="155vw" height="220vh">
-        <img class="img1" src="psss.jpg" width="280vw" height="190vh">
-        <img class="img1" src="p3.jpg" width="310vw" height="195vh">
-        <img class="img1" src="edu.jpg" width="330vw" height="200vh"> 
-        <img class="img1" src="lb.jpg" width="250vw" height="200vh">
-        <img class="img1" src="bb.jpg" width="240vw" height="170vh">
-        <img class="img1" src="tesla5.jpg" width="240vw" height="170vh">
-        <img class="img1" src="babbage.jpg" width="182vw" height="160vh">
-        <img class="img1" src="tg7.jpg" width="240vw" height="170vh">
-        <img class="img1" src="tesla3.jpg" width="182vw" height="160vh">
-        <img class="img1" src="WhatsApp Image 2023-09-26 at 21.25.00.jpg" width="240vw" height="170vh">
-        <img class="img1" src="bab9.jpg" width="160vw" height="150vh">
-        <img class="img1" src="bab7.jpg" width="160vw" height="150vh">
-        <img class="img1" src="bab10.jpg" width="160vw" height="150vh">
-        <img class="img1" src="tesla4.jpg" width="160vw" height="150vh">
-        <img class="img1" src="design.jpg" width="170vw" height="170vh">
-        <img class="img1" src="pb.jpg" width="160vw" height="170vh">
-        <img class="img1" src="tg3.jpg" width="155vw" height="150vh">
-        <img class="img1" src="tg8.jpg" width="155vw" height="150vh">
+  <div class="divv"><img class="img2" src="logo.png" width="100px" height="95px"></div>
+  <div class="name"><h1 class="start">CHITKARA UNIVERSITY</h1></div>
+  <div class="button-group">
+    <button class="button" data-type="*"><a href="ALL.html">ALL</a></button>
+    <button class="button" data-type="*"><a href="turing.html">TURING BLOCK</a></button>
+    <button class="button" data-type="*"><a href="picasso.html">PICASSO BLOCK</a></button>
+    <button class="button" data-type="*"><a href="babbage.html">BABBAGE BLOCK</a></button>
+    <button class="button" data-type="*"><a href="tesla.html">TESLA BLOCK</a></button>
+    <button class="button" data-type="*"><a href="show.html">SLIDE SHOW</a></button>
+  </div>
+  <div style="padding: 10px; padding-top: 20px; display: flex; flex-wrap: wrap; justify-content: center;">
+    <img class="img1" src="outer2.jpg">
+    <img class="img1" src="ou.jpg">
+    <img class="img1" src="outer.jpg">
+    <img class="img1" src="outer3.jpg">
+    <img class="img1" src="WhatsApp Image 2023-09-26 at 21.25.00.jpg" >
+<img class="img1" src="campus.jpg" >
+<img class="img1" src="design.jpg" >
+<img class="img1" src="tg2.jpg" >
+<img class="img1" src="bab6.jpg" >
+<img class="img1" src="bab8.jpg" >
+<img class="img1" src="class1.jpg" >
+<img class="img1" src="ds.jpg" >
+<img class="img1" src="chitkara.jpg" >
+<img class="img1" src="babbage.jpg">
+<img class="img1" src="psss.jpg" >
+<img class="img1" src="p3.jpg" >
+<img class="img1" src="edu.jpg"> 
+<img class="img1" src="lb.jpg" >
+<img class="img1" src="bb.jpg" >
+<img class="img1" src="tesla5.jpg" >
+<img class="img1" src="babbage.jpg" >
+<img class="img1" src="tg7.jpg" >
+<img class="img1" src="tesla3.jpg" >
+<img class="img1" src="WhatsApp Image 2023-09-26 at 21.25.00.jpg" >
+<img class="img1" src="bab9.jpg" >
+<img class="img1" src="bab7.jpg" >
+<img class="img1" src="bab10.jpg" >
+<img class="img1" src="tesla4.jpg" >
+<img class="img1" src="design.jpg" >
+<img class="img1" src="pb.jpg" >
+<img class="img1" src="tg3.jpg" >
+<img class="img1" src="tg8.jpg" >
+  </div>
 </body>
+</html>
