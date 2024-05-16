@@ -2,7 +2,9 @@
 IMAGE GALLERY WITH FILTERS  
 TEAM MEMBERS ARE :  
  MANPREET (2310992144)-  TESTER  
+
  MANYA (2310992146) -  DEVELOPER 
+
  MAAYANK (2310992149) -  MANAGER 
 we are Creating an image gallery project of CHITKARA UNIVERSITY, using HTML, CSS, and JavaScript can be a fun and educational endeavor.  
 
